@@ -1,0 +1,33 @@
+body {
+  background-color: white;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+header {
+  background-color: black;
+  border-bottom: 1rem solid black;
+  color: white;
+}
+
+.booking {
+  float: right;
+  margin-right: 3rem;
+  color: red;
+}
+
+nav {
+  background-color: dimgrey;
+  padding: 1rem;
+  align-content: center;
+}
+
+li {
+  text-decoration: none;
+}
+
+aside {
+  border: 0.1rem solid red;
+  float: right;
+  margin-right: 1rem
+}
