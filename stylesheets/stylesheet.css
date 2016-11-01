@@ -21,24 +21,33 @@ header {
 }
 
 nav {
+  clear: both;
   background-color: dimgrey;
-  padding: 1rem 0 1rem 0;
-  text-align: center;
+  text-decoration: none;
+  padding: 0.5rem;
 }
 
-article {
-  padding-left: 1rem;
-  margin-top: 0rem;
-  background-color: white;
-}
+/*.nav {
+  float: right;
+  padding: 1rem;
+}*/
 
 aside {
   float: right;
   border: 0.1rem solid red;
   text-align: center;
-  margin-left: 30rem;
+  margin-left: 40rem;
   background-color: white;
 }
+
+article {
+  clear: right;
+  padding-left: 1rem;
+  background-color: white;
+  margin-right: 20rem;
+}
+
+
 
 footer {
   clear: both;
