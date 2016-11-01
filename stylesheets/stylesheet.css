@@ -1,17 +1,24 @@
+a {
+ color: red;
+}
+
 article {
-  float: left
+  float: left;
+  padding-left: 1rem;
+  background-color: white;
 }
 
 body {
-  background-color: white;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  background-color: black;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 header {
   background-color: black;
   border-bottom: 1rem solid black;
   color: white;
+  padding-left: 1rem;
 }
 
 .booking {
@@ -22,25 +29,40 @@ header {
 
 nav {
   background-color: dimgrey;
-  padding: 1rem;
-  align-content: center;
+  padding: 1rem 0 1rem 0;
+  text-align: center;
 }
 
+/*p {
+}*/
+
 aside {
+  /*position: absolute;
+  top: 13rem;
+  right: 2rem;*/
+  float: right;
   border: 0.1rem solid red;
   margin-right: 1rem;
   text-align: center;
-  float: right;
+  margin-left: 30rem;
+  background-color: white;
+}
+
+.catpic {
+  color: black
 }
 
 li {
   text-decoration: none;
 }
 
-
-
 footer {
   clear: both;
+  color: white
+}
+
+.copyright {
+  color: white;
 }
 
 .mailto {
