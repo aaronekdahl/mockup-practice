@@ -1,3 +1,7 @@
+article {
+  float: left
+}
+
 body {
   background-color: white;
   margin-left: 3rem;
@@ -22,12 +26,23 @@ nav {
   align-content: center;
 }
 
+aside {
+  border: 0.1rem solid red;
+  margin-right: 1rem;
+  text-align: center;
+  float: right;
+}
+
 li {
   text-decoration: none;
 }
 
-aside {
-  border: 0.1rem solid red;
-  float: right;
-  margin-right: 1rem
+
+
+footer {
+  clear: both;
+}
+
+.mailto {
+  color: red; 
 }
