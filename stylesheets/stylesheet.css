@@ -1,23 +1,11 @@
-a {
- color: red;
-}
-
-article {
-  padding-left: 1rem;
-  margin-top: 0rem;
-  background-color: white;
-}
-
 body {
   background-color: black;
   margin-left: 2rem;
   margin-right: 2rem;
 }
 
-header {
-  background-color: black;
-  color: white;
-  padding-left: 1rem;
+a {
+ color: red;
 }
 
 .booking {
@@ -26,32 +14,30 @@ header {
   color: red;
 }
 
+header {
+  background-color: black;
+  color: white;
+  padding-left: 1rem;
+}
+
 nav {
   background-color: dimgrey;
   padding: 1rem 0 1rem 0;
   text-align: center;
 }
 
-/*p {
-}*/
+article {
+  padding-left: 1rem;
+  margin-top: 0rem;
+  background-color: white;
+}
 
 aside {
-  /*position: absolute;
-  top: 13rem;
-  right: 2rem;*/
   float: right;
   border: 0.1rem solid red;
   text-align: center;
   margin-left: 30rem;
   background-color: white;
-}
-
-.catpic {
-  color: black
-}
-
-li {
-  text-decoration: none;
 }
 
 footer {
@@ -61,8 +47,4 @@ footer {
 
 .copyright {
   color: white;
-}
-
-.mailto {
-  color: red; 
 }
