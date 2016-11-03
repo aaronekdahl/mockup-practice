@@ -1,7 +1,5 @@
 body {
   background-color: white;
-  margin-left: 2rem;
-  margin-right: 2rem;
 }
 
 a {
@@ -21,7 +19,7 @@ a.booking {
 header {
   background-color: black;
   color: white;
-  border: 0.5rem solid black
+  border: 1rem solid black
 }
 
 h3.title{
@@ -31,12 +29,13 @@ h3.title{
 ul.nav {
   background-color: dimgrey;
   list-style-type: none;
-  margin: 0rem;
   margin-top: 0rem;
+  margin-bottom: 0rem;
   padding: 0rem;
   text-align: center;
   overflow: hidden;
-
+  border-left: 1rem solid black;
+  border-right: 1rem solid black;
 }
 
 ul.nav li {
@@ -50,25 +49,41 @@ ul.nav li {
   padding: 1rem;
 }
 
+article {
+  margin-top: 0rem;
+  padding-left: 0.5rem;
+  border-left: 1rem solid black;
+}
+
+h2 {
+  margin: 0rem 0rem 0rem 0rem;
+  padding: 2rem 0rem 1rem 0rem;
+}
+
+p {
+  margin: 0rem 0rem 0rem 0rem;
+}
+
 aside {
   float: right;
   border: 0.1rem solid black;
   padding: 0.5rem;
-  margin: 1rem 0rem 0rem 1rem;
+  margin: 1rem 0rem 1rem 1rem;
   text-align: center;
   background-color: white;
-}
-
-article {
-  padding-left: 0.5rem;
-  margin-right: 50%;
+  border-right: 1rem solid black;
 }
 
 footer {
   clear: both;
-  color: white
+  padding: 0.5rem;
+  background-color: black;
+  color: white;
+  border-left: 1rem solid black;
+  border-right: 1rem solid black;
 }
 
 .copyright {
   color: white;
+  text-align: center;
 }
