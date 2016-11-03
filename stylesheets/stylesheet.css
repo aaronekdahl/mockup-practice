@@ -39,6 +39,16 @@ ul.nav li {
   padding-top: 0.25rem;
 }
 
+ul.rates {
+  display: block;
+  padding: 0rem;
+}
+
+ul.rates li {
+  list-style-type: none;
+  border:
+}
+
 .nav a {
   display: inline-block;
   padding: 1rem;
@@ -61,16 +71,7 @@ p {
 
 .jenny {
   margin-top: 1rem;
-  padding-bottom: 11rem
-}
-
-.team {
-  padding-bottom: 31rem;
-}
-
-ul.hourly-rates li {
-  list-style-type: none;
-  padding-bottom: 1rem;
+  padding-bottom: 17rem
 }
 
 aside {
