@@ -1,5 +1,6 @@
 body {
-  background-color: white;
+  background-color: black;
+  padding: 1rem;
 }
 
 a {
@@ -12,14 +13,10 @@ a.booking {
   color: red;
 }
 
-/* Future Use */
-/*a.top-cat {
-}*/
-
 header {
   background-color: black;
   color: white;
-  border: 1rem solid black
+  padding-left: 0.5rem;
 }
 
 h3.title{
@@ -34,8 +31,6 @@ ul.nav {
   padding: 0rem;
   text-align: center;
   overflow: hidden;
-  border-left: 1rem solid black;
-  border-right: 1rem solid black;
 }
 
 ul.nav li {
@@ -52,7 +47,7 @@ ul.nav li {
 article {
   margin-top: 0rem;
   padding-left: 0.5rem;
-  border-left: 1rem solid black;
+  background-color: white;
 }
 
 h2 {
@@ -64,14 +59,27 @@ p {
   margin: 0rem 0rem 0rem 0rem;
 }
 
+.jenny {
+  margin-top: 1rem;
+  padding-bottom: 11rem
+}
+
+.team {
+  padding-bottom: 31rem;
+}
+
+ul.hourly-rates li {
+  list-style-type: none;
+  padding-bottom: 1rem;
+}
+
 aside {
   float: right;
   border: 0.1rem solid black;
   padding: 0.5rem;
-  margin: 1rem 0rem 1rem 1rem;
+  margin: 1rem 1rem 0rem 1rem;
   text-align: center;
   background-color: white;
-  border-right: 1rem solid black;
 }
 
 footer {
