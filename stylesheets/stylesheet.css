@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: white;
   margin-left: 2rem;
   margin-right: 2rem;
 }
@@ -8,46 +8,61 @@ a {
  color: red;
 }
 
-.booking {
+a.booking {
   float: right;
-  margin-right: 3rem;
+  margin-right: 0.5rem;
   color: red;
 }
+
+/* Future Use */
+/*a.top-cat {
+}*/
 
 header {
   background-color: black;
   color: white;
-  padding-left: 1rem;
+  border: 0.5rem solid black
 }
 
-nav {
-  clear: both;
+h3.title{
+  color: gray;
+}
+
+ul.nav {
   background-color: dimgrey;
-  text-decoration: none;
-  padding: 0.5rem;
+  list-style-type: none;
+  margin: 0rem;
+  margin-top: 0rem;
+  padding: 0rem;
+  text-align: center;
+  overflow: hidden;
+
 }
 
-/*.nav {
-  float: right;
+ul.nav li {
+  display: inline;
+  padding-bottom: 0.25rem;
+  padding-top: 0.25rem;
+}
+
+.nav a {
+  display: inline-block;
   padding: 1rem;
-}*/
+}
 
 aside {
   float: right;
-  border: 0.1rem solid red;
+  border: 0.1rem solid black;
+  padding: 0.5rem;
+  margin: 1rem 0rem 0rem 1rem;
   text-align: center;
-  margin-left: 40rem;
   background-color: white;
 }
 
 article {
-  clear: right;
-  padding-left: 1rem;
-  background-color: white;
-  margin-right: 20rem;
+  padding-left: 0.5rem;
+  margin-right: 50%;
 }
-
-
 
 footer {
   clear: both;
